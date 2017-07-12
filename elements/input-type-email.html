@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Input Type Text</title>
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Nunito:400,400i,700" rel="stylesheet">
+	<link href="../css/style.css" rel="stylesheet">
+	<style>
+	input[type="text"] {
+		display: block;
+		margin:12px 0;
+		padding: 12px;
+	}
+	</style>
+</head>
+<body class="element">
+	<div class="layout">
+		<section class="content">
+			<a class="link-to-home" href="../index.html">Retour sur la page d'accueil</a>
+			<h1>Input Type Email</h1>
+			<p>
+				L'élément HTML <code>&lt;input type="email"&gt;</code> sont utilisés pour permettre à l'utilisateur d'entrer ou de modifier une adresse e-mail, et même d'y intégrer une liste d'adresses e-mail.  <code>&lt;input type="text"&gt;</code> permet d'ajouter du texte sur une seule ligne.
+			</p>
+			<section>
+				<h2>Exemple</h2>
+				<form>
+					<input id="emailAddress" type="email" placeholder="Un Email"><br>
+					<input id="emailAddress" type="email" placeholder="Plusieurs Emails" multiple><br>
+					<input type="email" size="10" placeholder="10 caractères"><br>
+					<input type="submit" value="Submit">
+				</form>
+			</section>
+			<section>
+				<h2>Code derrière tout ça&nbsp;:</h2>
+				<pre>
+&lt;input id="emailAddress" type="email" placeholder="Un Email"&gt;
+&lt;input id="emailAddress" type="email" placeholder="Plusieurs Emails" multiple&gt;
+&lt;input type="email" size="10" placeholder="10 caractères"&gt;
+				</pre>
+				<h3>Quelques attributs&nbsp;:</h3>
+				<ul>
+					<li><code>placeholder</code> : Une indication, destinée à l'utilisateur, pour ce qui peut être saisi dans le champ.</li>
+					<li><code>multiple</code> : Si l'attribut multiple est spécifié, la valeur peut être une liste d'adresses électroniques correctement formées séparées par des virgules.</li>
+					<li><code>size</code> : Modifier la taille de l'élement en spécifiant le nombre de caractères que la boîte de saisie peut afficher</li>
+				</ul>
+			</section>
+			<aside>
+				<h3>Plus d'info sur le sujet&nbsp;:</h3>
+				<ul>
+					<li><a href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/Input" target="_blank">Input sur MDN</a></li>
+				</ul>
+			</aside>
+		</section>
+		<section class="list-of-links">
+			<h2>Liste des éléments&nbsp;:</h2>
+			<ul class="list-of-links__ul">
+				<li><a href="input-type-checkbox.html">input type checkbox</a></li>
+				<li><a href="input-type-email.html">input type email</a></li>
+				<li><a href="input-type-file.html">input type file</a></li>
+				<li><a href="input-type-number.html">input type number</a></li>
+				<li><a href="input-type-radio.html">input type radio</a></li>
+				<li><a href="input-type-range.html">input type range</a></li>
+				<li><a href="input-type-reset.html">input type reset</a></li>
+				<li><a href="input-type-submit.html">input type submit</a></li>
+				<li><a href="input-type-text.html">input type submit</a></li>
+				<li><a href="select.html">select</a></li>
+			</ul>
+		</section>
+	</div>
+</body>
+</html>
